@@ -91,12 +91,22 @@ a:visited {
 .headline {
   font-size: 1.3em;
   margin-top: 0.3em;
-  margin-bottom: 5em;
+  margin-bottom: 1em;
   line-height: 1em;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
   margin-left: 0em;
+}
+.earlybird {
+  font-size: 1.1em;
+  margin-bottom: 3em;
+  line-height: 1.75em;
+  text-transform: capitalize;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 0em;
+  /* color: #0098db; */
 }
 
 .banner {
@@ -296,8 +306,14 @@ hr {
   }
   .headline {
     font-size: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     line-height: 1.5em;
+  }
+  .earlybird {
+    font-size: 0.9em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    color: #2c2c2c;
   }
 
   .icon {
