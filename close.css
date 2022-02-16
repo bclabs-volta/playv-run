@@ -196,8 +196,7 @@ body {
   }
   
   .score {
-    background-color: #565656;
-    color: #fff;
+    margin-top:0px;
   }
 
   
@@ -277,6 +276,13 @@ body {
         width: 100%;
       margin-top: 3em;
       margin-bottom: 3em;
+    }
+    
+    .score{
+        margin-bottom:2.25rem;
+    }
+    .table{
+        margin-top:1rem;
     }
   }
   
